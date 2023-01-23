@@ -1,9 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import Copy from "./clientComponents/Copy";
-import { increment } from "@/store/dataSlice";
-import { useSelector } from 'react-redux'
-import { store } from "@/store/store";
 export default function Home() {
   return (
     <>
