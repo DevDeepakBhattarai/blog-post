@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import Copy from "./clientComponents/Copy";
+import Copy from "../clientComponents/Copy";
 export default function Home() {
   return (
     <>
-      <div className="mx-auto my-0 lg:w-[60vw] lg:p-0 w-[auto] p-4">
+      <div className="mx-auto my-0 lg:w-[60vw] lg:p-0 w-[auto] p-4 mb-16">
 
         <div className="">
           <span className="block">
-            Jan,23 2023 / <Link href={"/deepak"}>Blog#1</Link>
+            Jan,23 2023 /<span className="hover:text-blue-600 hover:underline text-base"> Blog#1</span>
           </span>
           <div className="text-4xl font-bold  font-sans">
             How to make a simple blog post with Next js
